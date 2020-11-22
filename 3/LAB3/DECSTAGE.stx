@@ -1,0 +1,59 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_1bit.vhd" in Library work.
+Architecture behavioral of Entity mux2to1_1bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_32bit.vhd" in Library work.
+Architecture behavioral of Entity mux2to1_32bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux4to1_32bit.vhd" in Library work.
+Architecture behavioral of Entity mux4to1_32bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux8to1_32bit.vhd" in Library work.
+Architecture behavioral of Entity mux8to1_32bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux16to1_32bit.vhd" in Library work.
+Architecture behavioral of Entity mux16to1_32bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Decode5to32.vhd" in Library work.
+Architecture behavioral of Entity decode5to32 is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Reg.vhd" in Library work.
+Architecture behavioral of Entity reg is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux32to1_32bit.vhd" in Library work.
+Architecture behavioral of Entity mux32to1_32bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/CompModule.vhd" in Library work.
+Architecture behavioral of Entity compmodule is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/RF.vhd" in Library work.
+Architecture behavioral of Entity rf is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_5bits.vhd" in Library work.
+Architecture behavioral of Entity mux2to1_5bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Shift_extend.vhd" in Library work.
+Architecture behavioral of Entity semodule is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/DECSTAGE.vhd" in Library work.
+Entity <decstage> compiled.
+Entity <DECSTAGE> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.89 secs
+ 
+--> 
+
+Total memory usage is 173804 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

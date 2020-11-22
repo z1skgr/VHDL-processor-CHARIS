@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="LAB1" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALUSTAGE - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|ALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/ALUS - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/DECS - DECSTAGE - Behavioral/Mux_RData - Mux2to1_5bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/DECS - DECSTAGE - Behavioral/Mux_WData - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/DECS - DECSTAGE - Behavioral/RegF - RF - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/IFS - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/IFS - IFSTAGE - Behavioral/Mux - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/IFS - IFSTAGE - Behavioral/regPC - PC - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/MEMMUX - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/MEMS - MEMSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DECSTAGE.vhd/Mux_RData - Mux2to1_5bit - Behavioral</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DECSTAGE.vhd/Mux_WData - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DECSTAGE - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DECSTAGE.vhd/RegF - RF - Behavioral</ClosedNode>
+         <ClosedNode>/IFSTAGE - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|IFSTAGE.vhd</ClosedNode>
+         <ClosedNode>/IFSTAGE - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|IFSTAGE.vhd/MEMORY - MEMSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/IFSTAGE - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|IFSTAGE.vhd/Mux - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/IFSTAGE - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|IFSTAGE.vhd/regPC - PC - Behavioral</ClosedNode>
+         <ClosedNode>/MEMSTAGE - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|MEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/Mux16to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux16to1_32bit.vhd</ClosedNode>
+         <ClosedNode>/Mux2to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux2to1_32bit.vhd</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd/Mux0 - Mux16to1_32bit - Behavioral/Mux0 - Mux8to1_32bit - Behavioral/Mux0 - Mux4to1_32bit - Behavioral/Mux0 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd/Mux0 - Mux16to1_32bit - Behavioral/Mux0 - Mux8to1_32bit - Behavioral/Mux0 - Mux4to1_32bit - Behavioral/Mux1 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd/Mux0 - Mux16to1_32bit - Behavioral/Mux0 - Mux8to1_32bit - Behavioral/Mux0 - Mux4to1_32bit - Behavioral/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd/Mux0 - Mux16to1_32bit - Behavioral/Mux0 - Mux8to1_32bit - Behavioral/Mux1 - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd/Mux0 - Mux16to1_32bit - Behavioral/Mux0 - Mux8to1_32bit - Behavioral/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd/Mux0 - Mux16to1_32bit - Behavioral/Mux1 - Mux8to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd/Mux0 - Mux16to1_32bit - Behavioral/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd/Mux1 - Mux16to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux4to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux4to1_32bit.vhd</ClosedNode>
+         <ClosedNode>/Mux4to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux4to1_32bit.vhd/Mux0 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux4to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux4to1_32bit.vhd/Mux1 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux4to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux4to1_32bit.vhd/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux8to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux8to1_32bit.vhd</ClosedNode>
+         <ClosedNode>/Mux8to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux8to1_32bit.vhd/Mux0 - Mux4to1_32bit - Behavioral/Mux0 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux8to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux8to1_32bit.vhd/Mux0 - Mux4to1_32bit - Behavioral/Mux1 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux8to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux8to1_32bit.vhd/Mux0 - Mux4to1_32bit - Behavioral/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux8to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux8to1_32bit.vhd/Mux1 - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux8to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux8to1_32bit.vhd/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/Mux_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux2to1_32bit.vhd</ClosedNode>
+         <ClosedNode>/Mux_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux_32bit.vhd</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Mux1 - Mux32to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Mux1_2to1 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Mux1_32to1 - Mux32to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Mux2 - Mux32to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Mux2_2to1 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Mux2_32to1 - Mux32to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Reg0 - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Reg0 - Reg - Behavioral/muxd - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Reg31 - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Regs - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd/Regs - Reg - Behavioral/muxd - Mux2to1_32bit - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Mux_RData - Mux2to1_5bit - Behavioral (C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_5bits.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002e8000000020000000000000000000000000200000064ffffffff000000810000000300000002000002e80000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Mux_RData - Mux2to1_5bit - Behavioral (C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_5bits.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ec000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ec0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>C:\Users\xristos ziskas\Documents\Xilinx\organwsh\LAB2\ALU.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|ALU.vhd</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/ALUS - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/DECS - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/IFS - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|DATAPATH.vhd/MEMS - MEMSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/Mux32to1_32bit - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|Mux32to1_32bit.vhd</ClosedNode>
+         <ClosedNode>/RF - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|RF.vhd</ClosedNode>
+         <ClosedNode>/testALU - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testALU.vhd</ClosedNode>
+         <ClosedNode>/testALU - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testALU.vhd</ClosedNode>
+         <ClosedNode>/testALUSTAGE - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testAOps - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testAOps.vhd</ClosedNode>
+         <ClosedNode>/testAOps - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testAOps.vhd</ClosedNode>
+         <ClosedNode>/testCM - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testCM.vhd</ClosedNode>
+         <ClosedNode>/testCM - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testCM.vhd</ClosedNode>
+         <ClosedNode>/testDECSTAGE - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testDecode - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testDecode.vhd</ClosedNode>
+         <ClosedNode>/testDecode - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testDecode.vhd</ClosedNode>
+         <ClosedNode>/testIFSTAGE - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testIFSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testIFSTAGE - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testIFSTAGE.vhd/uut - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testIFSTAGE - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testIFSTAGE.vhd/uut - IFSTAGE - Behavioral/Mux - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testIFSTAGE - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testIFSTAGE.vhd/uut - IFSTAGE - Behavioral/regPC - PC - Behavioral</ClosedNode>
+         <ClosedNode>/testLOps - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testLOps.vhd</ClosedNode>
+         <ClosedNode>/testLOps - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testLOps.vhd</ClosedNode>
+         <ClosedNode>/testMEMSTAGE - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testMEMSTAGE.vhd/uut - MEMSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testMux2to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux2to1.vhd</ClosedNode>
+         <ClosedNode>/testMux2to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testMux2to1.vhd</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux32to1.vhd</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux32to1.vhd/uut - Mux32to1_32bit - Behavioral/Mux0 - Mux16to1_32bit - Behavioral/Mux0 - Mux8to1_32bit - Behavioral/Mux0 - Mux4to1_32bit - Behavioral/Mux0 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux32to1.vhd/uut - Mux32to1_32bit - Behavioral/Mux0 - Mux16to1_32bit - Behavioral/Mux0 - Mux8to1_32bit - Behavioral/Mux0 - Mux4to1_32bit - Behavioral/Mux1 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux32to1.vhd/uut - Mux32to1_32bit - Behavioral/Mux0 - Mux16to1_32bit - Behavioral/Mux0 - Mux8to1_32bit - Behavioral/Mux0 - Mux4to1_32bit - Behavioral/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux32to1.vhd/uut - Mux32to1_32bit - Behavioral/Mux0 - Mux16to1_32bit - Behavioral/Mux0 - Mux8to1_32bit - Behavioral/Mux1 - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux32to1.vhd/uut - Mux32to1_32bit - Behavioral/Mux0 - Mux16to1_32bit - Behavioral/Mux0 - Mux8to1_32bit - Behavioral/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux32to1.vhd/uut - Mux32to1_32bit - Behavioral/Mux0 - Mux16to1_32bit - Behavioral/Mux1 - Mux8to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux32to1.vhd/uut - Mux32to1_32bit - Behavioral/Mux0 - Mux16to1_32bit - Behavioral/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux32to1.vhd/uut - Mux32to1_32bit - Behavioral/Mux1 - Mux16to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testMux32to1.vhd/uut - Mux32to1_32bit - Behavioral/Mux2 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testMux32to1.vhd</ClosedNode>
+         <ClosedNode>/testRF - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testRF.vhd</ClosedNode>
+         <ClosedNode>/testRF - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testRF.vhd/uut - RF - Behavioral</ClosedNode>
+         <ClosedNode>/testRF - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testRF.vhd/uut - RF - Behavioral/Mux1_2to1 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testRF - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testRF.vhd/uut - RF - Behavioral/Mux1_32to1 - Mux32to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testRF - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testRF.vhd/uut - RF - Behavioral/Mux2_2to1 - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testRF - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testRF.vhd/uut - RF - Behavioral/Mux2_32to1 - Mux32to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testRF - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testRF.vhd/uut - RF - Behavioral/Reg0 - Reg - Behavioral/muxd - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testRF - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testRF.vhd/uut - RF - Behavioral/Regs - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/testRF - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testRF.vhd</ClosedNode>
+         <ClosedNode>/testReg - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testReg.vhd</ClosedNode>
+         <ClosedNode>/testReg - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testReg.vhd/uut - Reg - Behavioral/muxd - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testReg - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testReg.vhd</ClosedNode>
+         <ClosedNode>/testSEModule - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testSEModule.vhd</ClosedNode>
+         <ClosedNode>/testSOps - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB1|testSOps.vhd</ClosedNode>
+         <ClosedNode>/testSOps - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB2|testSOps.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>testMEMSTAGE - behavior (C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/testMEMSTAGE.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >8</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000299000000020000000000000000000000000200000064ffffffff000000810000000300000002000002990000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>testMEMSTAGE - behavior (C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/testMEMSTAGE.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ec000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ec0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000ec000000010000000100000000000000000000000064ffffffff000000810000000000000001000000ec0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000f3000000f301000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

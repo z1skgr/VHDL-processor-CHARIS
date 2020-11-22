@@ -1,0 +1,5 @@
+vhdl isim_temp "shiftOps.vhd"
+vhdl isim_temp "logicOps.vhd"
+vhdl isim_temp "arOps.vhd"
+vhdl isim_temp "ALU.vhd"
+vhdl isim_temp "Mux2to1_32bit.vhd"

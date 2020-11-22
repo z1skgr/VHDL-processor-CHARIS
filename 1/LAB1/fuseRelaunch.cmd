@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/testRF_isim_beh.exe" -prj "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/testRF_beh.prj" "work.testRF" 

@@ -1,0 +1,2 @@
+vhdl isim_temp "CompModule.vhd"
+vhdl isim_temp "testCM.vhd"

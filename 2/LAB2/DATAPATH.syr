@@ -1,0 +1,1878 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.45 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.45 secs
+ 
+--> Reading design: DATAPATH.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DATAPATH.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DATAPATH"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : DATAPATH
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_1bit.vhd" in Library work.
+Architecture behavioral of Entity mux2to1_1bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_32bit.vhd" in Library work.
+Architecture behavioral of Entity mux2to1_32bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux4to1_32bit.vhd" in Library work.
+Architecture behavioral of Entity mux4to1_32bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux8to1_32bit.vhd" in Library work.
+Architecture behavioral of Entity mux8to1_32bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux16to1_32bit.vhd" in Library work.
+Architecture behavioral of Entity mux16to1_32bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/D_ff.vhd" in Library work.
+Architecture behavioral of Entity d_ff is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/logicOps.vhd" in Library work.
+Architecture behavioral of Entity logicops is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/arOps.vhd" in Library work.
+Architecture behavioral of Entity arops is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/shiftOps.vhd" in Library work.
+Entity <shiftops> compiled.
+Entity <shiftops> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Decode5to32.vhd" in Library work.
+Architecture behavioral of Entity decode5to32 is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Reg.vhd" in Library work.
+Architecture behavioral of Entity reg is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux32to1_32bit.vhd" in Library work.
+Architecture behavioral of Entity mux32to1_32bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/CompModule.vhd" in Library work.
+Architecture behavioral of Entity compmodule is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/RF.vhd" in Library work.
+Architecture behavioral of Entity rf is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_5bits.vhd" in Library work.
+Architecture behavioral of Entity mux2to1_5bit is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Shift_extend.vhd" in Library work.
+Architecture behavioral of Entity semodule is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/PC_Incrementor.vhd" in Library work.
+Architecture behavioral of Entity pc_incrementor is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/PC.vhd" in Library work.
+Architecture behavioral of Entity pc is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/IFSTAGE.vhd" in Library work.
+Architecture behavioral of Entity ifstage is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/RAM.vhd" in Library work.
+Architecture syn of Entity ram is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/MEMSTAGE.vhd" in Library work.
+Architecture behavioral of Entity memstage is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/DECSTAGE.vhd" in Library work.
+Architecture behavioral of Entity decstage is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/ALUSTAGE.vhd" in Library work.
+Architecture behavioral of Entity alustage is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/DATAPATH.vhd" in Library work.
+Architecture behavioral of Entity datapath is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DATAPATH> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <IFSTAGE> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RAM> in library <work> (architecture <syn>).
+
+Analyzing hierarchy for entity <MEMSTAGE> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DECSTAGE> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALUSTAGE> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PC_Incrementor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_32bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PC> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RF> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_5bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SEModule> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Reg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Decode5to32> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux32to1_32bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_32bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CompModule> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <logicOps> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <arOps> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <shiftOps> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <D_ff> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux16to1_32bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux8to1_32bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_32bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux4to1_32bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_32bit> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux2to1_1bit> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DATAPATH> in library <work> (Architecture <behavioral>).
+Entity <DATAPATH> analyzed. Unit <DATAPATH> generated.
+
+Analyzing Entity <IFSTAGE> in library <work> (Architecture <behavioral>).
+Entity <IFSTAGE> analyzed. Unit <IFSTAGE> generated.
+
+Analyzing Entity <PC_Incrementor> in library <work> (Architecture <behavioral>).
+Entity <PC_Incrementor> analyzed. Unit <PC_Incrementor> generated.
+
+Analyzing Entity <Mux2to1_32bit> in library <work> (Architecture <behavioral>).
+Entity <Mux2to1_32bit> analyzed. Unit <Mux2to1_32bit> generated.
+
+Analyzing Entity <Mux2to1_1bit> in library <work> (Architecture <behavioral>).
+Entity <Mux2to1_1bit> analyzed. Unit <Mux2to1_1bit> generated.
+
+Analyzing Entity <PC> in library <work> (Architecture <behavioral>).
+Entity <PC> analyzed. Unit <PC> generated.
+
+Analyzing Entity <Reg> in library <work> (Architecture <behavioral>).
+Entity <Reg> analyzed. Unit <Reg> generated.
+
+Analyzing Entity <D_ff> in library <work> (Architecture <behavioral>).
+Entity <D_ff> analyzed. Unit <D_ff> generated.
+
+Analyzing Entity <RAM> in library <work> (Architecture <syn>).
+Entity <RAM> analyzed. Unit <RAM> generated.
+
+Analyzing Entity <MEMSTAGE> in library <work> (Architecture <behavioral>).
+Entity <MEMSTAGE> analyzed. Unit <MEMSTAGE> generated.
+
+Analyzing Entity <DECSTAGE> in library <work> (Architecture <behavioral>).
+Entity <DECSTAGE> analyzed. Unit <DECSTAGE> generated.
+
+Analyzing Entity <RF> in library <work> (Architecture <behavioral>).
+Entity <RF> analyzed. Unit <RF> generated.
+
+Analyzing Entity <Decode5to32> in library <work> (Architecture <behavioral>).
+Entity <Decode5to32> analyzed. Unit <Decode5to32> generated.
+
+Analyzing Entity <Mux32to1_32bit> in library <work> (Architecture <behavioral>).
+Entity <Mux32to1_32bit> analyzed. Unit <Mux32to1_32bit> generated.
+
+Analyzing Entity <Mux16to1_32bit> in library <work> (Architecture <behavioral>).
+Entity <Mux16to1_32bit> analyzed. Unit <Mux16to1_32bit> generated.
+
+Analyzing Entity <Mux8to1_32bit> in library <work> (Architecture <behavioral>).
+Entity <Mux8to1_32bit> analyzed. Unit <Mux8to1_32bit> generated.
+
+Analyzing Entity <Mux4to1_32bit> in library <work> (Architecture <behavioral>).
+Entity <Mux4to1_32bit> analyzed. Unit <Mux4to1_32bit> generated.
+
+Analyzing Entity <CompModule> in library <work> (Architecture <behavioral>).
+Entity <CompModule> analyzed. Unit <CompModule> generated.
+
+Analyzing Entity <Mux2to1_5bit> in library <work> (Architecture <behavioral>).
+Entity <Mux2to1_5bit> analyzed. Unit <Mux2to1_5bit> generated.
+
+Analyzing Entity <SEModule> in library <work> (Architecture <behavioral>).
+Entity <SEModule> analyzed. Unit <SEModule> generated.
+
+Analyzing Entity <ALUSTAGE> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/ALUSTAGE.vhd" line 62: Unconnected output port 'Zero' of component 'ALU'.
+WARNING:Xst:753 - "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/ALUSTAGE.vhd" line 62: Unconnected output port 'Cout' of component 'ALU'.
+WARNING:Xst:753 - "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/ALUSTAGE.vhd" line 62: Unconnected output port 'Ovf' of component 'ALU'.
+Entity <ALUSTAGE> analyzed. Unit <ALUSTAGE> generated.
+
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <logicOps> in library <work> (Architecture <behavioral>).
+Entity <logicOps> analyzed. Unit <logicOps> generated.
+
+Analyzing Entity <arOps> in library <work> (Architecture <behavioral>).
+Entity <arOps> analyzed. Unit <arOps> generated.
+
+Analyzing Entity <shiftOps> in library <work> (Architecture <behavioral>).
+Entity <shiftOps> analyzed. Unit <shiftOps> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <RAM>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/RAM.vhd".
+    Found 2048x32-bit dual-port RAM <Mram_RAM> for signal <RAM>.
+    Found 32-bit register for signal <inst_dout>.
+    Found 32-bit register for signal <data_dout>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  64 D-type flip-flop(s).
+Unit <RAM> synthesized.
+
+
+Synthesizing Unit <MEMSTAGE>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/MEMSTAGE.vhd".
+WARNING:Xst:647 - Input <ALU_MEM_Addr<31:13>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <ALU_MEM_Addr<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 11-bit register for signal <ALU_MEM_Addr_new>.
+    Found 32-bit register for signal <MEM_DataOut>.
+    Found 11-bit adder for signal <ALU_MEM_Addr_new$add0000> created at line 50.
+    Summary:
+	inferred  43 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <MEMSTAGE> synthesized.
+
+
+Synthesizing Unit <PC_Incrementor>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/PC_Incrementor.vhd".
+    Found 32-bit adder for signal <PC_Output>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <PC_Incrementor> synthesized.
+
+
+Synthesizing Unit <Mux2to1_1bit>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_1bit.vhd".
+Unit <Mux2to1_1bit> synthesized.
+
+
+Synthesizing Unit <D_ff>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/D_ff.vhd".
+    Found 32-bit register for signal <Q>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <D_ff> synthesized.
+
+
+Synthesizing Unit <SEModule>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Shift_extend.vhd".
+Unit <SEModule> synthesized.
+
+
+Synthesizing Unit <Decode5to32>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Decode5to32.vhd".
+    Found 32x32-bit ROM for signal <DOut>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Decode5to32> synthesized.
+
+
+Synthesizing Unit <CompModule>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/CompModule.vhd".
+    Found 1-bit xor2 for signal <temp$xor0000>.
+    Found 1-bit xor2 for signal <temp$xor0001>.
+    Found 1-bit xor2 for signal <temp$xor0002>.
+    Found 1-bit xor2 for signal <temp$xor0003>.
+    Found 1-bit xor2 for signal <temp$xor0004>.
+Unit <CompModule> synthesized.
+
+
+Synthesizing Unit <logicOps>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/logicOps.vhd".
+Unit <logicOps> synthesized.
+
+
+Synthesizing Unit <arOps>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/arOps.vhd".
+WARNING:Xst:646 - Signal <ctemp<31:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 33-bit latch for signal <ctemp>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <temp>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 33-bit addsub for signal <ctemp$mux0001>.
+    Found 32-bit addsub for signal <output$addsub0000>.
+    Found 1-bit xor2 for signal <ovfput$xor0000> created at line 82.
+    Found 1-bit xor2 for signal <temp$xor0000>.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <arOps> synthesized.
+
+
+Synthesizing Unit <shiftOps>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/shiftOps.vhd".
+Unit <shiftOps> synthesized.
+
+
+Synthesizing Unit <Mux2to1_32bit>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_32bit.vhd".
+Unit <Mux2to1_32bit> synthesized.
+
+
+Synthesizing Unit <Mux2to1_5bit>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_5bits.vhd".
+Unit <Mux2to1_5bit> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/ALU.vhd".
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <ALUSTAGE>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/ALUSTAGE.vhd".
+Unit <ALUSTAGE> synthesized.
+
+
+Synthesizing Unit <Reg>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Reg.vhd".
+Unit <Reg> synthesized.
+
+
+Synthesizing Unit <Mux4to1_32bit>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux4to1_32bit.vhd".
+Unit <Mux4to1_32bit> synthesized.
+
+
+Synthesizing Unit <PC>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/PC.vhd".
+Unit <PC> synthesized.
+
+
+Synthesizing Unit <Mux8to1_32bit>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux8to1_32bit.vhd".
+Unit <Mux8to1_32bit> synthesized.
+
+
+Synthesizing Unit <IFSTAGE>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/IFSTAGE.vhd".
+Unit <IFSTAGE> synthesized.
+
+
+Synthesizing Unit <Mux16to1_32bit>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux16to1_32bit.vhd".
+Unit <Mux16to1_32bit> synthesized.
+
+
+Synthesizing Unit <Mux32to1_32bit>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux32to1_32bit.vhd".
+Unit <Mux32to1_32bit> synthesized.
+
+
+Synthesizing Unit <RF>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/RF.vhd".
+WARNING:Xst:1780 - Signal <we<0>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <decodeout<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <RF> synthesized.
+
+
+Synthesizing Unit <DECSTAGE>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/DECSTAGE.vhd".
+Unit <DECSTAGE> synthesized.
+
+
+Synthesizing Unit <DATAPATH>.
+    Related source file is "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/DATAPATH.vhd".
+WARNING:Xst:1306 - Output <Instr> is never assigned.
+WARNING:Xst:646 - Signal <memoryout> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <memmuxout> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <iaddr> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <DATAPATH> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 2048x32-bit dual-port RAM                             : 1
+# ROMs                                                 : 1
+ 32x32-bit ROM                                         : 1
+# Adders/Subtractors                                   : 5
+ 11-bit adder                                          : 1
+ 32-bit adder                                          : 2
+ 32-bit addsub                                         : 1
+ 33-bit addsub                                         : 1
+# Registers                                            : 37
+ 11-bit register                                       : 1
+ 32-bit register                                       : 36
+# Latches                                              : 2
+ 1-bit latch                                           : 1
+ 33-bit latch                                          : 1
+# Xors                                                 : 12
+ 1-bit xor2                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <IFS> is unconnected in block <DATAPATH>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <MEMORY> is unconnected in block <DATAPATH>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <MEMS> is unconnected in block <DATAPATH>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DECS> is unconnected in block <DATAPATH>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <ALUS> is unconnected in block <DATAPATH>.
+   It will be removed from the design.
+
+Synthesizing (advanced) Unit <DATAPATH>.
+INFO:Xst:3045 - The ROM description <DECS/RegF/Decoder/Mrom_DOut> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+INFO:Xst:3226 - The RAM <MEMORY/Mram_RAM> will be implemented as a BLOCK RAM, absorbing the following register(s): <MEMORY/inst_dout>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 2048-word x 32-bit                  |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to signal <MEM_WrEn>      | high     |
+    |     addrA          | connected to signal <aluaddrnewout> |          |
+    |     diA            | connected to signal <rfbout>        |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 2048-word x 32-bit                  |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <Clk>           | rise     |
+    |     addrB          | connected to signal <instrout>      |          |
+    |     doB            | connected to signal <meminstrout>   |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <DATAPATH> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 2048x32-bit dual-port block RAM                       : 1
+# ROMs                                                 : 1
+ 32x32-bit ROM                                         : 1
+# Adders/Subtractors                                   : 5
+ 11-bit adder                                          : 1
+ 32-bit adder                                          : 2
+ 32-bit addsub                                         : 1
+ 33-bit addsub                                         : 1
+# Registers                                            : 1099
+ Flip-Flops                                            : 1099
+# Latches                                              : 2
+ 1-bit latch                                           : 1
+ 33-bit latch                                          : 1
+# Xors                                                 : 12
+ 1-bit xor2                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <AOps/ctemp_0> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_1> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_2> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_3> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_4> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_5> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_6> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_7> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_8> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_9> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_10> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_11> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_12> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_13> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_14> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_15> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_16> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_17> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_18> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_19> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_20> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_21> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_22> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_23> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_24> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_25> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_26> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_27> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_28> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_29> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_30> of sequential type is unconnected in block <ALU>.
+WARNING:Xst:2677 - Node <AOps/ctemp_31> of sequential type is unconnected in block <ALU>.
+
+Optimizing unit <DATAPATH> ...
+
+Optimizing unit <D_ff> ...
+
+Optimizing unit <ALU> ...
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/MEM_DataOut_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMS/ALU_MEM_Addr_new_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMORY/Mram_RAM1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMORY/Mram_RAM4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMORY/Mram_RAM2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <MEMORY/Mram_RAM3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <IFS/regPC/PC_Reg/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/Reg0/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[1].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[2].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[3].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[4].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[5].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[6].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[7].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[8].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[9].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[10].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[11].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[12].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[13].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[14].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[15].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[16].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[17].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[18].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[19].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[20].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[21].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[22].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[23].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[24].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[25].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[26].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[27].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[28].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[29].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[30].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_31> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_30> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_29> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_28> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_27> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_26> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_25> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_24> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_23> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_22> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_21> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_20> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_19> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_18> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_17> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_16> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_15> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_14> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_13> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_12> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_11> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_10> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_9> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_8> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_7> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_6> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_5> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_4> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_3> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_2> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_1> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <DECS/RegF/GEN[31].regs/Dflop/Q_0> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <ALUS/ALUM/AOps/ctemp_32> of sequential type is unconnected in block <DATAPATH>.
+WARNING:Xst:2677 - Node <ALUS/ALUM/AOps/temp> of sequential type is unconnected in block <DATAPATH>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DATAPATH, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DATAPATH.ngr
+Top Level Output File Name         : DATAPATH
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 45
+
+Cell Usage :
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                        0  out of    960     0%  
+ Number of IOs:                          45
+ Number of bonded IOBs:                   0  out of     83     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 50.00 secs
+Total CPU time to Xst completion: 49.53 secs
+ 
+--> 
+
+Total memory usage is 257380 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings : 1156 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

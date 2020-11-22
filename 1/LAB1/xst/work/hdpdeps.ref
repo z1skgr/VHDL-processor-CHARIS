@@ -1,0 +1,103 @@
+V3 54
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.vhd" 2018/02/18.20:03:07 O.87xd
+EN work/ALU 1518999321 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/STD_LOGIC_UNSIGNED 1325952875 \
+      PB ieee/std_logic_arith 1325952873
+AR work/ALU/Behavioral 1518999322 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.vhd" \
+      EN work/ALU 1518999321 CP logicOps CP arOps CP shiftOps
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/arOps.vhd" 2018/02/18.20:11:05 O.87xd
+EN work/arOps 1518999317 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/arOps.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/STD_LOGIC_UNSIGNED 1325952875 \
+      PB ieee/std_logic_arith 1325952873
+AR work/arOps/Behavioral 1518999318 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/arOps.vhd" \
+      EN work/arOps 1518999317
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/CompModule.vhd" 2018/02/17.17:50:30 O.87xd
+EN work/CompModule 1519000024 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/CompModule.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/CompModule/Behavioral 1519000025 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/CompModule.vhd" \
+      EN work/CompModule 1519000024
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Decode5to32.vhd" 2018/02/19.00:58:10 O.87xd
+EN work/Decode5to32 1519000018 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Decode5to32.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Decode5to32/Behavioral 1519000019 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Decode5to32.vhd" \
+      EN work/Decode5to32 1519000018
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/logicOps.vhd" 2018/02/17.16:45:28 O.87xd
+EN work/logicOps 1518999315 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/logicOps.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/logicOps/Behavioral 1518999316 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/logicOps.vhd" \
+      EN work/logicOps 1518999315
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux16to1_32bit.vhd" 2018/02/17.15:42:39 O.87xd
+EN work/Mux16to1_32bit 1519000016 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux16to1_32bit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux16to1_32bit/Behavioral 1519000017 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux16to1_32bit.vhd" \
+      EN work/Mux16to1_32bit 1519000016 CP Mux8to1_32bit CP Mux2to1_32bit
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux2to1_1bit.vhd" 2018/02/17.14:32:19 O.87xd
+EN work/Mux2to1_1bit 1519000008 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux2to1_1bit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux2to1_1bit/Behavioral 1519000009 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux2to1_1bit.vhd" \
+      EN work/Mux2to1_1bit 1519000008
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux2to1_32bit.vhd" 2018/02/18.00:51:53 O.87xd
+EN work/Mux2to1_32bit 1519000010 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux2to1_32bit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux2to1_32bit/Behavioral 1519000011 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux2to1_32bit.vhd" \
+      EN work/Mux2to1_32bit 1519000010 CP Mux2to1_1bit
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux32to1_32bit.vhd" 2018/02/17.18:39:26 O.87xd
+EN work/Mux32to1_32bit 1519000022 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux32to1_32bit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux32to1_32bit/Behavioral 1519000023 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux32to1_32bit.vhd" \
+      EN work/Mux32to1_32bit 1519000022 CP Mux16to1_32bit CP Mux2to1_32bit
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux4to1_32bit.vhd" 2018/02/17.18:46:05 O.87xd
+EN work/Mux4to1_32bit 1519000012 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux4to1_32bit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux4to1_32bit/Behavioral 1519000013 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux4to1_32bit.vhd" \
+      EN work/Mux4to1_32bit 1519000012 CP Mux2to1_32bit
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux8to1_32bit.vhd" 2018/02/17.15:08:50 O.87xd
+EN work/Mux8to1_32bit 1519000014 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux8to1_32bit.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Mux8to1_32bit/Behavioral 1519000015 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux8to1_32bit.vhd" \
+      EN work/Mux8to1_32bit 1519000014 CP Mux4to1_32bit CP Mux2to1_32bit
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Reg.vhd" 2018/02/19.02:12:02 O.87xd
+EN work/Reg 1519000020 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Reg.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/Reg/Behavioral 1519000021 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Reg.vhd" \
+      EN work/Reg 1519000020
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/RF.vhd" 2018/02/19.02:26:06 O.87xd
+EN work/RF 1519000026 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/RF.vhd" \
+      PB ieee/std_logic_1164 1325952872 PB ieee/STD_LOGIC_UNSIGNED 1325952875 \
+      PB ieee/std_logic_arith 1325952873
+AR work/RF/Behavioral 1519000027 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/RF.vhd" \
+      EN work/RF 1519000026 CP Decode5to32 CP Reg CP Mux32to1_32bit CP Mux2to1_32bit \
+      CP CompModule
+FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/shiftOps.vhd" 2018/02/17.16:54:45 O.87xd
+EN work/shiftOps 1518999319 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/shiftOps.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/shiftOps/Behavioral 1518999320 \
+      FL "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/shiftOps.vhd" \
+      EN work/shiftOps 1518999319

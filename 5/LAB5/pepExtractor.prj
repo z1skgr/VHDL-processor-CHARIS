@@ -1,0 +1,4 @@
+work	"Mux2to1_1bit.vhd"
+work	"Reg1bit.vhd"
+work	"Reg6Bit.vhd"
+work	"flipflop0.vhd"

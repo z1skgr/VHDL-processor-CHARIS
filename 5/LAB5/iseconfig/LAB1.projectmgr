@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="LAB1" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/ALUS - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/CONTROL - CONTROLLER - Behavioral/FSM - FSMmodule - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/CONTROL - CONTROLLER - Behavioral/FSM - FSMmodule - Behavioral/Regi - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/DECS - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/DEC_EX - DECEX - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/EX_MEM - EXMEM - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/FWMUXA - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/FWMUXB - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/IFS - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/IFS - IFSTAGE - Behavioral/Mux - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/IFS - IFSTAGE - Behavioral/regPC - PC - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/IRREG - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/MEM_WB - MEMWB - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/STALLReg - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/StallMux - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|DATAPATH.vhd/ALUS - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|DATAPATH.vhd/CONTROL - CONTROLLER - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|DATAPATH.vhd/DECS - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|DATAPATH.vhd/DEC_EX - DECEX - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|DATAPATH.vhd/EX_MEM - EXMEM - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|DATAPATH.vhd/FWMUXA - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|DATAPATH.vhd/FWMUXB - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|DATAPATH.vhd/IFS - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|DATAPATH.vhd/IRREG - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|DATAPATH.vhd/MEM_WB - MEMWB - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/ALUS - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/CONTROL - CONTROLLER - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/DECS - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/DEC_EX - DECEX - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/EX_MEM - EXMEM - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/FWMUXA - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/FWMUXB - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/IFS - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/IRREG - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/DATAPATH - Behavioral |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|DATAPATH.vhd/MEM_WB - MEMWB - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Stalling - Behavioral (C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Stalling.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >9</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002e8000000020000000000000000000000000200000064ffffffff000000810000000300000002000002e80000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Stalling - Behavioral (C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Stalling.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff0000008100000000000000040000009e0000000100000000000000560000000100000000000000790000000100000000000001100000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>C:\Users\xristos ziskas\Documents\Xilinx\organwsh\LAB5\LAB5\ALU.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/testALU - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testALU.vhd</ClosedNode>
+         <ClosedNode>/testALU - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|testALU.vhd</ClosedNode>
+         <ClosedNode>/testALU - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testALU.vhd</ClosedNode>
+         <ClosedNode>/testALUCONTROL - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testALUCONTROL.vhd</ClosedNode>
+         <ClosedNode>/testALUSTAGE - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testALUSTAGE - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|testALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testALUSTAGE - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testALUSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testAOps - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testAOps.vhd</ClosedNode>
+         <ClosedNode>/testAOps - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|testAOps.vhd</ClosedNode>
+         <ClosedNode>/testAOps - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testAOps.vhd</ClosedNode>
+         <ClosedNode>/testCM - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testCM.vhd</ClosedNode>
+         <ClosedNode>/testCM - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|testCM.vhd</ClosedNode>
+         <ClosedNode>/testCM - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testCM.vhd</ClosedNode>
+         <ClosedNode>/testCONTROLLER - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testCONTROLLER.vhd/uut - CONTROLLER - Behavioral</ClosedNode>
+         <ClosedNode>/testCONTROLLER - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testCONTROLLER.vhd/uut - CONTROLLER - Behavioral/FSM - FSMmodule - Behavioral</ClosedNode>
+         <ClosedNode>/testCONTROLLER - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|testCONTROLLER.vhd</ClosedNode>
+         <ClosedNode>/testCONTROLLER - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testCONTROLLER.vhd</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/ALUS - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/CONTROL - CONTROLLER - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/DECS - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/DEC_EX - DECEX - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/EX_MEM - EXMEM - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/FWMUXA - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/FWMUXB - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/IFS - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/IRREG - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/MEM_WB - MEMWB - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/STALLReg - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/StallMux - Mux2to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior C:|Users|xristos ziskas|Documents|Xilinx|organwsh|LAB5|LAB5|testDATAPATH.vhd</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/ALUS - ALUSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/CONTROL - CONTROLLER - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/DECS - DECSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/DEC_EX - DECEX - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/EX_MEM - EXMEM - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/FWMUXA - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/FWMUXB - Mux4to1_32bit - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/IFS - IFSTAGE - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/IRREG - Reg - Behavioral</ClosedNode>
+         <ClosedNode>/testDATAPATH - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDATAPATH.vhd/uut - DATAPATH - Behavioral/MEM_WB - MEMWB - Behavioral</ClosedNode>
+         <ClosedNode>/testDECEX - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDECEX.vhd</ClosedNode>
+         <ClosedNode>/testDECEX - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDECEX.vhd</ClosedNode>
+         <ClosedNode>/testDECSTAGE - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testDECSTAGE - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDECSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testDecode - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testDecode.vhd</ClosedNode>
+         <ClosedNode>/testDecode - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testDecode.vhd</ClosedNode>
+         <ClosedNode>/testEXMEM - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testEXMEM.vhd</ClosedNode>
+         <ClosedNode>/testEXMEM - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testEXMEM.vhd/uut - EXMEM - Behavioral</ClosedNode>
+         <ClosedNode>/testEXMEM - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testEXMEM.vhd</ClosedNode>
+         <ClosedNode>/testFSMmodule - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testFSMmodule.vhd</ClosedNode>
+         <ClosedNode>/testFSMmodule - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testFSMmodule.vhd</ClosedNode>
+         <ClosedNode>/testIFSTAGE - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testIFSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testIFSTAGE - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testIFSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testLOps - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testLOps.vhd</ClosedNode>
+         <ClosedNode>/testLOps - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testLOps.vhd</ClosedNode>
+         <ClosedNode>/testMEMSTAGE - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testMEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testMEMSTAGE - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testMEMSTAGE.vhd</ClosedNode>
+         <ClosedNode>/testMEMWB - behavior C:|Users|xristos ziskas|Desktop|LAB5 ananeomeno|LAB5|testMEMWB.vhd</ClosedNode>
+         <ClosedNode>/testMEMWB - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testMEMWB.vhd</ClosedNode>
+         <ClosedNode>/testMux2to1 - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testMux2to1.vhd</ClosedNode>
+         <ClosedNode>/testMux32to1 - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testMux32to1.vhd</ClosedNode>
+         <ClosedNode>/testREGDECbox - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testREGDECbox.vhd</ClosedNode>
+         <ClosedNode>/testRF - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testRF.vhd</ClosedNode>
+         <ClosedNode>/testReg - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testReg.vhd</ClosedNode>
+         <ClosedNode>/testReg1bit - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testReg1bit.vhd</ClosedNode>
+         <ClosedNode>/testReg4Bit - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testReg4bit.vhd</ClosedNode>
+         <ClosedNode>/testReg5bit - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testReg5bit.vhd</ClosedNode>
+         <ClosedNode>/testReg6Bit - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testReg6Bit.vhd</ClosedNode>
+         <ClosedNode>/testSEModule - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testSEModule.vhd</ClosedNode>
+         <ClosedNode>/testSOps - behavior |home|ibalampanis|Desktop|LAB5 ananeomeno|LAB5|testSOps.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>testDATAPATH - behavior (C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/testDATAPATH.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000358000000020000000000000000000000000200000064ffffffff000000810000000300000002000003580000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>testDATAPATH - behavior (C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/testDATAPATH.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000f2000000f301000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

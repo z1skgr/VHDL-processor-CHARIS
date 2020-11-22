@@ -1,0 +1,7 @@
+vhdl isim_temp "Reg.vhd"
+vhdl isim_temp "Mux2to1_1bit.vhd"
+vhdl isim_temp "PC_Incrementor.vhd"
+vhdl isim_temp "PC.vhd"
+vhdl isim_temp "Mux2to1_32bit.vhd"
+vhdl isim_temp "IF_MEM.vhd"
+vhdl isim_temp "IFSTAGE.vhd"

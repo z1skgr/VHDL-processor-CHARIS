@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\xristos ziskas\Documents\Xilinx\organwsh\LAB1\ALU.ncd
+OUTFILE=C:\Users\xristos ziskas\Documents\Xilinx\organwsh\LAB1\ALU.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\xristos ziskas\Documents\Xilinx\organwsh\LAB1
+LICENSE=WebPack
+USER_INFO=211285017_0_0_659

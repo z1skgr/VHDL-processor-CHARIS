@@ -1,0 +1,7 @@
+vhdl work "shiftOps.vhd"
+vhdl work "Mux2to1_1bit.vhd"
+vhdl work "logicOps.vhd"
+vhdl work "arOps.vhd"
+vhdl work "Mux2to1_32bit.vhd"
+vhdl work "ALU.vhd"
+vhdl work "ALUSTAGE.vhd"

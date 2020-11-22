@@ -1,0 +1,33 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/testALUSTAGE_isim_beh.exe -prj C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/testALUSTAGE_beh.prj work.testALUSTAGE 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/shiftOps.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_1bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/logicOps.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/arOps.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/Mux2to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/ALUSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/testALUSTAGE.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity logicOps [logicops_default]
+Compiling architecture behavioral of entity arOps [arops_default]
+Compiling architecture behavioral of entity shiftOps [shiftops_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity Mux2to1_1bit [mux2to1_1bit_default]
+Compiling architecture behavioral of entity Mux2to1_32bit [mux2to1_32bit_default]
+Compiling architecture behavioral of entity ALUSTAGE [alustage_default]
+Compiling architecture behavior of entity testalustage
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 19 VHDL Units
+Built simulation executable C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB2/testALUSTAGE_isim_beh.exe
+Fuse Memory Usage: 31944 KB
+Fuse CPU Usage: 1874 ms

@@ -1,0 +1,7 @@
+vhdl work "Reg.vhd"
+vhdl work "Mux2to1_1bit.vhd"
+vhdl work "PC_Incrementor.vhd"
+vhdl work "PC.vhd"
+vhdl work "Mux2to1_32bit.vhd"
+vhdl work "IF_MEM.vhd"
+vhdl work "IFSTAGE.vhd"

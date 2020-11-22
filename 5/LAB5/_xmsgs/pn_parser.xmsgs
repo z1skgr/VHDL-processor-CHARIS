@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/ALU.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/ALUSTAGE.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/CONTROLLER.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/CompModule.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/DATAPATH.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/DECEX.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/DECSTAGE.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/D_ff.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Decode5to32.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/EXMEM.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/FSMmodule.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/ForwardModule.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/IFSTAGE.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/MEMWB.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Mux16to1_32bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Mux2to1_1bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Mux2to1_32bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Mux2to1_5bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Mux32to1_32bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Mux4to1_32bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Mux8to1_32bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/PC.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/PC_Incrementor.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/PC_Subber.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/RAM.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/RF.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Reg.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Reg1bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Reg4bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Reg5Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Reg6Bit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Shift_extend.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/StallModule.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/Stalling.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/arOps.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/flipflop0.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/logicOps.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/modiule.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

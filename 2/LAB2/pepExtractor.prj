@@ -1,0 +1,4 @@
+work	"ALU.vhd"
+work	"arOps.vhd"
+work	"logicOps.vhd"
+work	"shiftOps.vhd"

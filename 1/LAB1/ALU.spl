@@ -1,0 +1,10 @@
+[Inputs]
+=A[31:0]=
+=B[31:0]=
+=Op[3:0]=
+[Outputs]
+Zero
+Cout
+Ovf
+=Outp[31:0]=
+[BiDir]

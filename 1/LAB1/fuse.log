@@ -1,0 +1,42 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/testRF_isim_beh.exe -prj C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/testRF_beh.prj work.testRF 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux2to1_1bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux2to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux4to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux8to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux16to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/D_ff.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Reg.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Mux32to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/Decode5to32.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/CompModule.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/RF.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/testRF.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity Decode5to32 [decode5to32_default]
+Compiling architecture behavioral of entity Mux2to1_1bit [mux2to1_1bit_default]
+Compiling architecture behavioral of entity Mux2to1_32bit [mux2to1_32bit_default]
+Compiling architecture behavioral of entity D_ff [d_ff_default]
+Compiling architecture behavioral of entity Reg [reg_default]
+Compiling architecture behavioral of entity Mux4to1_32bit [mux4to1_32bit_default]
+Compiling architecture behavioral of entity Mux8to1_32bit [mux8to1_32bit_default]
+Compiling architecture behavioral of entity Mux16to1_32bit [mux16to1_32bit_default]
+Compiling architecture behavioral of entity Mux32to1_32bit [mux32to1_32bit_default]
+Compiling architecture behavioral of entity CompModule [compmodule_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavior of entity testrf
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 28 VHDL Units
+Built simulation executable C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/testRF_isim_beh.exe
+Fuse Memory Usage: 36184 KB
+Fuse CPU Usage: 2703 ms

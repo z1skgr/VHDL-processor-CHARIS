@@ -1,0 +1,3 @@
+work	"ALU_Control.vhd"
+work	"CONTROL.vhd"
+work	"CONTROLLER.vhd"

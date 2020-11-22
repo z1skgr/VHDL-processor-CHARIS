@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LAB1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ALU.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ALU_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="CONTROL_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="logicOps.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testALUSTAGE_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testCONTROLLER_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testDECSTAGE_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testFSM_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testPROCESSOR_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testPROCESSOR_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testPROCESSOR_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1522078759" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1522078759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1522080153" xil_pn:in_ck="9214069447829443100" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1522080153">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="ALUSTAGE.vhd"/>
+      <outfile xil_pn:name="ALU_Control.vhd"/>
+      <outfile xil_pn:name="CONTROL.vhd"/>
+      <outfile xil_pn:name="CONTROLLER.vhd"/>
+      <outfile xil_pn:name="CompModule.vhd"/>
+      <outfile xil_pn:name="DATAPATH.vhd"/>
+      <outfile xil_pn:name="DECSTAGE.vhd"/>
+      <outfile xil_pn:name="D_ff.vhd"/>
+      <outfile xil_pn:name="Decode5to32.vhd"/>
+      <outfile xil_pn:name="IFSTAGE.vhd"/>
+      <outfile xil_pn:name="MEMSTAGE.vhd"/>
+      <outfile xil_pn:name="Mux16to1_32bit.vhd"/>
+      <outfile xil_pn:name="Mux2to1_1bit.vhd"/>
+      <outfile xil_pn:name="Mux2to1_32bit.vhd"/>
+      <outfile xil_pn:name="Mux2to1_5bits.vhd"/>
+      <outfile xil_pn:name="Mux32to1_32bit.vhd"/>
+      <outfile xil_pn:name="Mux4to1_32bit.vhd"/>
+      <outfile xil_pn:name="Mux8to1_32bit.vhd"/>
+      <outfile xil_pn:name="PC.vhd"/>
+      <outfile xil_pn:name="PC_Incrementor.vhd"/>
+      <outfile xil_pn:name="PROCESSOR.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="RF.vhd"/>
+      <outfile xil_pn:name="Reg.vhd"/>
+      <outfile xil_pn:name="Shift_extend.vhd"/>
+      <outfile xil_pn:name="arOps.vhd"/>
+      <outfile xil_pn:name="logicOps.vhd"/>
+      <outfile xil_pn:name="shiftOps.vhd"/>
+      <outfile xil_pn:name="testALU.vhd"/>
+      <outfile xil_pn:name="testALUCONTROL.vhd"/>
+      <outfile xil_pn:name="testALUSTAGE.vhd"/>
+      <outfile xil_pn:name="testAOps.vhd"/>
+      <outfile xil_pn:name="testCM.vhd"/>
+      <outfile xil_pn:name="testCONTROLLER.vhd"/>
+      <outfile xil_pn:name="testDECSTAGE.vhd"/>
+      <outfile xil_pn:name="testDecode.vhd"/>
+      <outfile xil_pn:name="testFSM.vhd"/>
+      <outfile xil_pn:name="testIFSTAGE.vhd"/>
+      <outfile xil_pn:name="testLOps.vhd"/>
+      <outfile xil_pn:name="testMEMSTAGE.vhd"/>
+      <outfile xil_pn:name="testMux2to1.vhd"/>
+      <outfile xil_pn:name="testMux32to1.vhd"/>
+      <outfile xil_pn:name="testPROCESSOR.vhd"/>
+      <outfile xil_pn:name="testRF.vhd"/>
+      <outfile xil_pn:name="testReg.vhd"/>
+      <outfile xil_pn:name="testSEModule.vhd"/>
+      <outfile xil_pn:name="testSOps.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1522078759" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="1264337889937996086" xil_pn:start_ts="1522078759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1522078759" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6957014013673945272" xil_pn:start_ts="1522078759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1522078759" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6320568988317075249" xil_pn:start_ts="1522078759">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1522080153" xil_pn:in_ck="9214069447829443100" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1522080153">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="ALUSTAGE.vhd"/>
+      <outfile xil_pn:name="ALU_Control.vhd"/>
+      <outfile xil_pn:name="CONTROL.vhd"/>
+      <outfile xil_pn:name="CONTROLLER.vhd"/>
+      <outfile xil_pn:name="CompModule.vhd"/>
+      <outfile xil_pn:name="DATAPATH.vhd"/>
+      <outfile xil_pn:name="DECSTAGE.vhd"/>
+      <outfile xil_pn:name="D_ff.vhd"/>
+      <outfile xil_pn:name="Decode5to32.vhd"/>
+      <outfile xil_pn:name="IFSTAGE.vhd"/>
+      <outfile xil_pn:name="MEMSTAGE.vhd"/>
+      <outfile xil_pn:name="Mux16to1_32bit.vhd"/>
+      <outfile xil_pn:name="Mux2to1_1bit.vhd"/>
+      <outfile xil_pn:name="Mux2to1_32bit.vhd"/>
+      <outfile xil_pn:name="Mux2to1_5bits.vhd"/>
+      <outfile xil_pn:name="Mux32to1_32bit.vhd"/>
+      <outfile xil_pn:name="Mux4to1_32bit.vhd"/>
+      <outfile xil_pn:name="Mux8to1_32bit.vhd"/>
+      <outfile xil_pn:name="PC.vhd"/>
+      <outfile xil_pn:name="PC_Incrementor.vhd"/>
+      <outfile xil_pn:name="PROCESSOR.vhd"/>
+      <outfile xil_pn:name="RAM.vhd"/>
+      <outfile xil_pn:name="RF.vhd"/>
+      <outfile xil_pn:name="Reg.vhd"/>
+      <outfile xil_pn:name="Shift_extend.vhd"/>
+      <outfile xil_pn:name="arOps.vhd"/>
+      <outfile xil_pn:name="logicOps.vhd"/>
+      <outfile xil_pn:name="shiftOps.vhd"/>
+      <outfile xil_pn:name="testALU.vhd"/>
+      <outfile xil_pn:name="testALUCONTROL.vhd"/>
+      <outfile xil_pn:name="testALUSTAGE.vhd"/>
+      <outfile xil_pn:name="testAOps.vhd"/>
+      <outfile xil_pn:name="testCM.vhd"/>
+      <outfile xil_pn:name="testCONTROLLER.vhd"/>
+      <outfile xil_pn:name="testDECSTAGE.vhd"/>
+      <outfile xil_pn:name="testDecode.vhd"/>
+      <outfile xil_pn:name="testFSM.vhd"/>
+      <outfile xil_pn:name="testIFSTAGE.vhd"/>
+      <outfile xil_pn:name="testLOps.vhd"/>
+      <outfile xil_pn:name="testMEMSTAGE.vhd"/>
+      <outfile xil_pn:name="testMux2to1.vhd"/>
+      <outfile xil_pn:name="testMux32to1.vhd"/>
+      <outfile xil_pn:name="testPROCESSOR.vhd"/>
+      <outfile xil_pn:name="testRF.vhd"/>
+      <outfile xil_pn:name="testReg.vhd"/>
+      <outfile xil_pn:name="testSEModule.vhd"/>
+      <outfile xil_pn:name="testSOps.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1522080171" xil_pn:in_ck="9214069447829443100" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-258705573212388658" xil_pn:start_ts="1522080153">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testPROCESSOR_beh.prj"/>
+      <outfile xil_pn:name="testPROCESSOR_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1522080172" xil_pn:in_ck="-4109060848243902341" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8405232219969216901" xil_pn:start_ts="1522080171">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testPROCESSOR_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

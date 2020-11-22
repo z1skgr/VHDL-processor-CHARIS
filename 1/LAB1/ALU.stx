@@ -1,0 +1,40 @@
+Release 13.4 - xst O.87xd (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.49 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.49 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/logicOps.vhd" in Library work.
+Architecture behavioral of Entity logicops is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/arOps.vhd" in Library work.
+Architecture behavioral of Entity arops is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/shiftOps.vhd" in Library work.
+Architecture behavioral of Entity shiftops is up to date.
+Compiling vhdl file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.82 secs
+ 
+--> 
+
+Total memory usage is 172460 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

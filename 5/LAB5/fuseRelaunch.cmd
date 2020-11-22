@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/testDATAPATH_isim_beh.exe" -prj "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB5/LAB5/testDATAPATH_beh.prj" "work.testDATAPATH" 

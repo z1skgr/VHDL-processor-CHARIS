@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB4/testPROCESSOR_isim_beh.exe" -prj "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB4/testPROCESSOR_beh.prj" "work.testPROCESSOR" 

@@ -1,0 +1,4 @@
+vhdl work "shiftOps.vhd"
+vhdl work "logicOps.vhd"
+vhdl work "arOps.vhd"
+vhdl work "ALU.vhd"

@@ -1,0 +1,78 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/testPROCESSOR_isim_beh.exe -prj C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/testPROCESSOR_beh.prj work.testPROCESSOR 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/Mux2to1_1bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/Mux2to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/Mux4to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/Mux8to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/Mux16to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/D_ff.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/shiftOps.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/Reg.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/Mux32to1_32bit.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/logicOps.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/Decode5to32.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/CompModule.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/arOps.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/Shift_extend.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/RF.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/PC_Incrementor.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/PC.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/Mux2to1_5bits.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/IFSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/DECSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/CONTROL.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/ALU_Control.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/ALUSTAGE.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/DATAPATH.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/CONTROLLER.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/PROCESSOR.vhd" into library work
+Parsing VHDL file "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/testPROCESSOR.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity ALU_Control [alu_control_default]
+Compiling architecture behavioral of entity CONTROL [control_default]
+Compiling architecture behavioral of entity CONTROLLER [controller_default]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture behavioral of entity PC_Incrementor [pc_incrementor_default]
+Compiling architecture behavioral of entity Mux2to1_1bit [mux2to1_1bit_default]
+Compiling architecture behavioral of entity Mux2to1_32bit [mux2to1_32bit_default]
+Compiling architecture behavioral of entity D_ff [d_ff_default]
+Compiling architecture behavioral of entity Reg [reg_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity IFSTAGE [ifstage_default]
+Compiling architecture syn of entity RAM [ram_default]
+Compiling package numeric_std
+Compiling architecture behavioral of entity Decode5to32 [decode5to32_default]
+Compiling architecture behavioral of entity Mux4to1_32bit [mux4to1_32bit_default]
+Compiling architecture behavioral of entity Mux8to1_32bit [mux8to1_32bit_default]
+Compiling architecture behavioral of entity Mux16to1_32bit [mux16to1_32bit_default]
+Compiling architecture behavioral of entity Mux32to1_32bit [mux32to1_32bit_default]
+Compiling architecture behavioral of entity CompModule [compmodule_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity Mux2to1_5bit [mux2to1_5bit_default]
+Compiling architecture behavioral of entity SEModule [semodule_default]
+Compiling architecture behavioral of entity DECSTAGE [decstage_default]
+Compiling architecture behavioral of entity logicOps [logicops_default]
+Compiling architecture behavioral of entity arOps [arops_default]
+Compiling architecture behavioral of entity shiftOps [shiftops_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity ALUSTAGE [alustage_default]
+Compiling architecture behavioral of entity DATAPATH [datapath_default]
+Compiling architecture behavioral of entity PROCESSOR [processor_default]
+Compiling architecture behavior of entity testprocessor
+Time Resolution for simulation is 1ps.
+Waiting for 18 sub-compilation(s) to finish...
+Compiled 64 VHDL Units
+Built simulation executable C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB3/testPROCESSOR_isim_beh.exe
+Fuse Memory Usage: 41704 KB
+Fuse CPU Usage: 3796 ms

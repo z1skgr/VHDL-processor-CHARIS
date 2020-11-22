@@ -1,0 +1,4 @@
+work	"D_ff.vhd"
+work	"Mux2to1_1bit.vhd"
+work	"Mux2to1_32bit.vhd"
+work	"nREG.vhd"

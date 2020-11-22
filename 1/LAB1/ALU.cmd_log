@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.xst" -ofn "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.syr" 
+xst -intstyle ise -ifn "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.xst" -ofn "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 "ALU.ngc" ALU.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o ALU_map.ncd ALU.ngd ALU.pcf 
+par -w -intstyle ise -ol high -t 1 ALU_map.ncd ALU.ncd ALU.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf 
+bitgen -intstyle ise -f ALU.ut ALU.ncd 
+xst -intstyle ise -ifn "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.xst" -ofn "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.syr" 
+vhdtdtfi -lib work shiftOps.vhd -lib work logicOps.vhd -lib work arOps.vhd -lib work ALU.vhd -prj LAB1 -o ALU.spl -module ALU -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ALU.spl {C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.sym} 
+vhdtdtfi -prj LAB1 -o "C:/Users/xristos ziskas/Documents/Xilinx/organwsh/LAB1/ALU.vhi" -module ALU -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work shiftOps.vhd -lib work logicOps.vhd -lib work arOps.vhd -lib work ALU.vhd 
