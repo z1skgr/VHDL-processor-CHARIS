@@ -6,13 +6,14 @@
 
 # Description <br />
 2 Modules <br />
+
 **Unit of arithmetic and logical operations** <br />
 1)Operations <br />
 2)Add <br />
 3)Subtraction <br />
 4)NAND <br />
 5)OR <br />
-6)INVERSION
+6)INVERSION  <br />
 7)ARITHMETIC SHIFT RIGHT <br />
 8)ARITHMETIC SHIFT LEFT <br />
 9)LOGICAL SHIFT RIGHT <br />
@@ -36,7 +37,7 @@ Construction of a single datapath. Connection of the stages of the previous proj
 Design and implementation of the control unit. Construction of FSM that creates the control signals.
 
 # 4 <br />
-Advanced Command Architecture. Custom commands.
+Advanced Command Architecture. Custom commands.  <br />
 1)addi_MMX_byte. <br />
 2)poly2. <br />
 3rfld. <br />
