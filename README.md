@@ -40,7 +40,7 @@ Design and implementation of the control unit. Construction of FSM that creates 
 Advanced Command Architecture. Custom commands.  <br />
 1)addi_MMX_byte. <br />
 2)poly2. <br />
-3rfld. <br />
+3)rfld. <br />
 4)rfst. <br />
 
 # 5 <br />
