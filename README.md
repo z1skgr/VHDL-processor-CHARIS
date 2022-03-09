@@ -3,7 +3,7 @@
 
  ## Table of contents
 * [Labs](#labs)
-   * [1](#alu-n-register-file)
+   * [1](#alu-and-register-file)
    * [2](#datapath-charis-processor)
    * [3](#control-unit)
    * [4](#operations-for-calculator-design)
@@ -12,8 +12,8 @@
 * [Acknowledgments](#acknowledgments)
 
 
-## ALU N REGISTER FILE
-### ALU
+### ALU and REGISTER FILE
+#### ALU
 
 | Name |  Width  |  Action  | 
 | ------- | ----- | -------| 
@@ -24,6 +24,8 @@
 | Zero | IN (1 bit) | Signal for Zero output|  
 | C<sub>out</sub> | OUT (1 bit) | Signal for Carry Out output | 
 | Ovf | OUT (1 bit) | Signal for Overflow output | 
+
+<br>
 
 | Code |  Action  |  Result  | 
 | ------- | ----- | ------ | 
@@ -38,7 +40,9 @@
 | 1100 | Rotate shift left | Rotate from MSB to LSB | 
 | 1101 | Rotate shift right | Rotate from LSB to MSB | 
  
- ### REG
+ <br>
+ 
+ #### REG
 | Name |  Width  |  Action  | 
 | ------- | ----- | ------ | 
 | Αrd1 | IN (5 bits) | Address source register #1| 
@@ -50,9 +54,10 @@
 | WrEn | IN (1 bit) | Enable writing | 
 | Clk | IN (1 bit) | Clock | 
 
+<br>
 
-## Datapath CHARIS processor
-### R type
+### Datapath CHARIS processor
+#### R type
 | Name |  Width  | 
 | ------- | ----- | 
 | Opcode | 6 bits | 
@@ -62,13 +67,17 @@
 | not-used | 5 bits | 
 | func | 6 bits | 
 
-### I type
+<br>
+
+#### I type
 | Name |  Width  | 
 | ------- | ----- | 
 | Opcode | 6 bits | 
 | rs | 5 bits |  
 | rd | 5 bits|
 | Immediate | 16 bits|  
+
+<br>
 
 | Opcode |  Func  |  Comm  |  Action
 | ------- | ----- | ------ | ---------- | 
@@ -95,24 +104,29 @@
 | 001111| - | lw | RF[rd]<- MEM[RF[rs]+SignExtend(Imm)] | 
 | 011111| - | sw | MEM[RF[rs]+SignExtend(Imm)]<-RF[rd] | 
 
-
+<br>
+#### Features
 * MAIN MEMORY 2048x32
 * IF STAGE
 * DECODE
 * ALU
 * MEM
 
-
-
-## Control Unit
+<br>
+ 
+### Control Unit
 * Connection of the stages.
 * Design FSM for control signals.
 
-## Advanced Custom commands
+<br>
+
+### Advanced Custom commands
 1. addi_MMX_byte
 2. poly2 
 3. rfld
 4. rfst
+
+<br>
 
 | Opcode |  Func  |  Comm  |  Action
 | ------- | ----- | ------ | ---------------------------------------------------- | 
@@ -121,8 +135,9 @@
 | 011100 | - | rfld | base_addr = RF[rs]+ SignExtend(Imm) for(i=1;i<32;i++) RF[i]<-MEM[base_addr+4*i]  | 
 | 011110 | - | rfst | base_addr = RF[rs]+ SignExtend(Imm) for(i=1;i<32;i++) MEM[base_addr+4*i]<-RF[i] | 
 
+<br>
 
-# Pipeline proc
+### Pipeline proc
 1. Mods on Datapath
    * new registers
    * solve stalls/forwarding
@@ -130,7 +145,7 @@
    * solve hazards (data/control)
 
 
-# How to run
+## How to run
 Xilinx ISE® design suite 13.7 and above
 
 To run the project 
