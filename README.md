@@ -122,9 +122,12 @@
 
 ### Advanced Custom commands
 1. addi_MMX_byte
-2. poly2 
-3. rfld
-4. rfst
+  
+3. poly2 
+4. rfld
+   * Loads RF registers from 31 consecutive memory locations
+5. rfst
+   * Stores the values of the RF registers in 31 consecutive memory locations
 
 <br>
 
