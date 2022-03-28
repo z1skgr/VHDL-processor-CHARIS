@@ -122,7 +122,8 @@
 
 ### Advanced Custom commands
 1. addi_MMX_byte
-  
+  * 
+  ![1](https://user-images.githubusercontent.com/22920222/160410956-6742740c-d041-4e64-b46b-62da78837427.png)
 3. poly2 
 4. rfld
    * Loads RF registers from 31 consecutive memory locations
