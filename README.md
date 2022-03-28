@@ -16,7 +16,7 @@
 #### ALU
 
 | Name |  Width  |  Action  | 
-| ------- | ----- | -------| 
+| ------- | ---------- | ---------| 
 | Α | IN (32 bits) | 2's compiment operative| 
 | Β | IN (32 bits) |  2's compiment operative | 
 | Op | IN (4 bits) | Action code | 
@@ -28,7 +28,7 @@
 <br>
 
 | Code |  Action  |  Result  | 
-| ------- | ----- | ------ | 
+| ------- | ---------- | ---------- | 
 | 0000 | Add | Out = A + B| 
 | 0001 | Sub |  Out = A - B | 
 | 0010 | Logic NOT AND |Out = A NAND B | 
@@ -44,7 +44,7 @@
  
  #### REG
 | Name |  Width  |  Action  | 
-| ------- | ----- | ------ | 
+| -------- | ---------- | ---------- | 
 | Αrd1 | IN (5 bits) | Address source register #1| 
 | Ard2 | IN (5 bits) |  Address source register #2| 
 | Awr | IN (5 bits) | Address destination register | 
@@ -59,7 +59,7 @@
 ### Datapath CHARIS processor
 #### R type
 | Name |  Width  | 
-| ------- | ----- | 
+| --------- | ------- | 
 | Opcode | 6 bits | 
 | rs | 5 bits |  
 | rd | 5 bits|
@@ -71,7 +71,7 @@
 
 #### I type
 | Name |  Width  | 
-| ------- | ----- | 
+| --------- | ------- | 
 | Opcode | 6 bits | 
 | rs | 5 bits |  
 | rd | 5 bits|
@@ -80,7 +80,7 @@
 <br>
 
 | Opcode |  Func  |  Comm  |  Action
-| ------- | ----- | ------ | ---------- | 
+| --------- | -------- | -------- | ----------- | 
 | 100000 | 110000 | add | RF[rd]<-RF[rs]+RF[rt] | 
 | 100000 | 110001 |  sub | RF[rd]<-RF[rs]-RF[rt]| 
 | 100000 | 110010 | nand | RF[rd]<-RF[rs] NAND RF[rt] | 
@@ -129,7 +129,7 @@
 <br>
 
 | Opcode |  Func  |  Comm  |  Action
-| ------- | ----- | ------ | ---------------------------------------------------- | 
+| ------- | ------- | -------- | ------------------------------------------------------ | 
 | 110001 | - | MMX_addi_byte | RF[rd]<-RF[rs](31 downto 24) + immed(7 downto 0) &..& RF[rd]<-RF[rs](7 downto 0) + immed(7 downto 0) | 
 | 100000 | 010000 |  poly2 | RF[rd]<- RF[rt]* RF[rt] * MEM[RF[rs]] + RF[rt]* MEM[RF[rs]+4]+ MEM[RF[rs]+8]| 
 | 011100 | - | rfld | base_addr = RF[rs]+ SignExtend(Imm) for(i=1;i<32;i++) RF[i]<-MEM[base_addr+4*i]  | 
