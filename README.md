@@ -105,6 +105,7 @@
 | 011111| - | sw | MEM[RF[rs]+SignExtend(Imm)]<-RF[rd] | 
 
 <br>
+
 #### Features
 * MAIN MEMORY 2048x32
 * IF STAGE
